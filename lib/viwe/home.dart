@@ -154,15 +154,13 @@ class _HomePageState extends State<HomePage> {
                         enlargeCenterPage: true,
                         enlargeStrategy: CenterPageEnlargeStrategy.height,
                         onPageChanged: (index, reason) {
-                          setState(() {
-                            current = index;
-                          });
+                          setState(() {});
                         },
                       )),
                   //CarouselSlider.bulider End
                   //Text viweAll
                   SizedBox(
-                    height: 30,
+                    height: 40,
                   ),
                   Padding(
                       padding: EdgeInsets.only(left: 10.0, right: 10.0),
